@@ -10,6 +10,7 @@ var defaults = {
 }
 
 var data = require('./data.js');
+var irregulars = require('./irregulars.js');
 
 
 var self = function(options){
@@ -28,8 +29,12 @@ self.all = function(size){
 
 self.plural = function(data){
 	return _.map(data,function(val){
-		return pluralize(val);
-	})
+		if(!irregulars[val]){
+			return pluralize(val);
+		} else {
+			return irregulars[val];
+		}
+	});
 }
 
 
