@@ -1,7 +1,7 @@
 {
   "name": "data-creatures",
   "version": "0.0.0",
-  "description": "Hard data of RPG creature names",
+  "description": "Hard data of RPG creatures",
   "main": "index.js",
   "author": "Andre Caetano",
   "license": "MIT",
