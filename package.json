@@ -1,0 +1,26 @@
+{
+  "name": "data-creatures",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Andre Caetano",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "dependencies": {
+    "lodash": "^4.13.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
+  },
+  "keywords": [
+    "gulpjs",
+    "gulpplugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webcaetano/data-creatures"
+  }
+}
