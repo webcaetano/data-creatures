@@ -5,11 +5,13 @@
   "main": "index.js",
   "author": "Andre Caetano",
   "license": "MIT",
+  "bin": "cli.js",
   "scripts": {
     "test": "mocha test.js"
   },
   "dependencies": {
     "lodash": "^4.13.1",
+    "meow": "^3.7.0",
     "pluralize": "^3.0.0"
   },
   "devDependencies": {
